@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+.firstHeader{
+    width:  1440px;
+    height:  70px;
+    padding: 24px 160px 24px 160px;
+    gap: 752px; 
+}
+.firstHeader a{
+    text-decoration: none;
+    font-family: 'Kanit',  sans-serif ;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
+
+.secondHeader{
+    height: 248px;
+    padding: 0px 25px 4px 160px;
+    gap: 752px;
+}
+.example{
+    width: 265px;
+    height: 265px;
+    border-radius: 4px;
+}
+.secondHeader h3{
+    font-family: 'Kanit',sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.container{
+    height: 1,152px;
+    padding: 0px 160px 101px 160px;
+    gap: 45px;
+}
+.news{
+    width:  1,120px;
+    height:  310px;
+    padding: 0px 0px 36px 0px;
+    border: 0px 0px 1px 0px;
+    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width:755px;
+    height:274px;
+    gap:70px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.top{
+    width:  693px;
+    height:  174px;
+    gap: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.infoTop img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.infoTop{
+    gap: 4px;
+    display: flex;
+    align-items: center;
+}
+.infoTop p{
+    font-family:'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.infoTop span{
+    color: grey;
+}
+
+.topText h4{
+    font-family: 'Inter',sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.topText p{
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.bottom{
+    width:  755px;
+    height:  30px;
+    gap: 325px;
+    }
+.bottom p{
+    color: grey;
+}
+button{
+    width:  107px;
+    height:  30px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 100px;
+    gap: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button h5{
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
